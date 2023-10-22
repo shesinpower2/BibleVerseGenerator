@@ -1,0 +1,57 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.scripture{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#scriptureLocation{
+    margin-top: 10px;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fjalla';
+    src: url('FjallaOne-Regular.ttf') format('.ttf');
+}
+
+button{
+    background-color: rgb(252, 143, 47);
+    font-family: 'fjalla', neuton, sans-serif;
+    color: midnightblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+
+.big-title {
+    font-family: 'fjalla', neuton, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(252, 143, 47);
+}
+
+.responsive{
+    width: 100%;
+    max-width: 300px;
+   height: auto;
+}
